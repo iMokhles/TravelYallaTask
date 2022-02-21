@@ -1,0 +1,32 @@
+
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+//       "@app/*": ["src/App"],
+//       "@components/*": ["src/Components/*"],
+//       "@config/*": ["src/Config/*"],
+//       "@constants/*": ["src/Constants/*"],
+//       "@helpers/*": ["src/Helpers/*"],
+//       "@interfaces/*": ["src/Interfaces/*"],
+//       "@navigators/*": ["src/Navigators/*"],
+//       "@redux/*": ["src/Redux/*"],
+//       "@screens/*": ["src/Screens/*"],
+//       "@utils/*": ["src/Utils/*"]
+     },                           /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+    "skipLibCheck": true
+  },
+  "include": ["index.d.ts", "src/**/*"],
+  "exclude": [ ".history", "node_modules", "**/node_modules/*"]
+}
